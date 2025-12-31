@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Nunito', sans-serif; /* Clean font for inputs/body */
+  overflow: hidden; /* No scrolling */
+  background-color: #ffe4e6;
+}
+
+/* Custom romantic scrollbar just in case */
+::-webkit-scrollbar {
+  width: 0px;
+}
